@@ -1,0 +1,236 @@
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --accent-color: #2196F3;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: #212121;
+   }
+
+/* =====================COMPONENTS====================== */
+/* =====================HEADER====================== */
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.logo-header {
+    color: #000000;
+}
+
+.menu-item .current {
+    color: var(--accent-color);
+}
+
+.menu-link {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+
+.contact-phone-number {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+    color: var(--accent-color);
+}
+
+.contact-email {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.contact-email:hover,
+.contact-email:focus {
+    color: var(--accent-color);
+}
+/* =====================/HEADER====================== */
+/* =====================HERO====================== */
+.hero {
+    background: #2F303A;
+}
+
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.modal-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: var(--accent-color);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.modal-btn:hover 
+.modal-btn:focus {
+    background-color: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
+/*  =====================/HERO====================== */
+
+/* =====================ADVANTAGES====================== */
+.advantages-title {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.advantages-list {
+    line-height: 1.71;
+    color: #757575;
+}
+/* =====================/ADVANTAGES====================== */
+/* =====================ABOUT====================== */
+/* =====================/ABOUT====================== */
+.secondary-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+/* =====================EMPLOYEES====================== */
+.employees {
+    background-color: #F5F4FA;
+}
+
+.employees-item {
+    background-color: #FFFFFF;;
+}
+
+.team-member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.profesion-team-member {
+    font-size: 16px;
+    line-height: 1.19;
+    color: #757575;
+}
+/* =====================/EMPLOYEES====================== */
+
+/* =====================FOOTER====================== */
+footer {
+    background: #2F303A;
+}
+
+.logo-footer {
+    color: #FFFFFF;
+}
+
+.map-adress {
+    font-style: normal;
+    line-height: 1.71;
+    color: #FFFFFF;
+}
+
+.map-adress:hover,
+.map-adress:focus {
+    color: var(--accent-color);
+}
+
+.mail-adress {  
+    font-style: normal;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.mail-adress:hover,
+.mail-adress:focus {
+    color: var(--accent-color);
+}
+
+.phone-number {
+    font-style: normal;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.phone-number:hover,
+.phone-number:focus {
+    color: var(--accent-color);
+}
+/* =====================/FOOTER====================== */
+
+.project {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-type {
+    font-size: 16px;
+    line-height: 1.88;
+    color: #757575;
+}
+
+.modal-btn-portfolio {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    color: #212121;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.modal-btn-portfolio:hover,
+.modal-btn-portfolio:focus {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
